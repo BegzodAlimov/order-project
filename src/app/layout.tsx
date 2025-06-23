@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.className}`}>
+      <body className={`${nunito.className} ${manrope.className}`}>
         {children}
       </body>
     </html>
